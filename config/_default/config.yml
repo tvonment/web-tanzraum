@@ -1,0 +1,17 @@
+######################## default configuration ####################
+baseURL: https://www.tanzraum.ch
+title: Tanzraum Herisau
+theme: hugo-theme-copper
+paginate: 6
+summaryLength: 10
+defaultContentLanguage: de
+disableLanguages:
+  - fr # desable language from here
+outputs:
+  home:
+    - HTML
+    - RSS
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
