@@ -3004,3 +3004,9 @@ footer {
   @media (max-width: 575px) {
     .scroll-to-top-btn.show {
       bottom: 15px; } }
+/* SideScroll Fix */
+html, body {
+  overflow-x: hidden; }
+
+body {
+  position: relative; }
