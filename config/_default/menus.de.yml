@@ -3,31 +3,32 @@ main:
     URL: /
     weight: 1
 
-  - name: Kontakt
-    URL: contact
+  - name: Kurse
+    URL: kurse
     weight: 2
 
-  - name: Seiten
+  - name: Veranstaltungen
     hasChildren: true
     weight: 3
 
-  - name: Subpage
-    parent: Seiten
-    URL: subpage
+  - name: Aufführungen
+    parent: Veranstaltungen
+    URL: auffuehrungen
 
-  - name: Subpage2
-    parent: Seiten
-    URL: subpage2
+  - name: Kultur Brunch
+    parent: Veranstaltungen
+    URL: kultur-brunch
+
+  - name: Raum
+    URL: raum
+    weight: 4
+
+  - name: Kontakt
+    URL: contact
+    weight: 5
 
 footer:
-  - name: Faq
-    URL: faq
+
+  - name: Datenschutzerklärung
+    URL: datenschutz
     weight: 1
-
-  - name: Terms & Conditions
-    URL: terms-conditions
-    weight: 2
-
-  - name: Privacy Policy
-    URL: privacy-policy
-    weight: 3
