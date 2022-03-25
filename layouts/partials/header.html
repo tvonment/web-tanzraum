@@ -1,7 +1,7 @@
-<header class="header-nav position-relative bg-light-gray">
+<header class="header-nav position-relative bg-light-gray sticky">
   <div class="container">
     <nav class="navbar navbar-expand-xl navbar-light px-0">
-      <a class="navbar-brand p-0" href="{{ site.BaseURL }}" style="max-width: 25rem;">
+      <a id="header-img" class="navbar-brand p-0 header-logo-big" href="{{ site.BaseURL }}">
         {{ with site.Params.logo }}
 
         {{ $image := resources.GetMatch . }}
@@ -75,3 +75,4 @@
     </nav>
   </div>
 </header>
+<div id="header-space" class="bg-light-gray"></div>

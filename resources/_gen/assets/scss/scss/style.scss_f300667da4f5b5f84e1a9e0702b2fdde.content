@@ -3015,3 +3015,17 @@ body {
 .cc-cp-foot-save,
 .cc-nb-okagree {
   background-color: #f6c50a !important; }
+
+/* Sticky Header, Shrinking Logo */
+.sticky {
+  position: fixed !important;
+  top: 0;
+  width: 100%; }
+
+.header-logo-small {
+  width: 10rem;
+  transition: 0.5s; }
+
+.header-logo-big {
+  width: 15rem;
+  transition: 0.5s; }
