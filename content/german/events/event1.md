@@ -1,5 +1,5 @@
 ---
-title: Event 1
+title: Tanzauftritt der Eleganten
 description: Beschreibung Event 1
 tags:
 - Tanz

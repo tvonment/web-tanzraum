@@ -1,3 +1,58 @@
+############################ Banner ##################################
+banner:
+  enable : true
+  title : "Willkommen im **TanzRaum**"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seddiam nonumy eirmod tempor invidunt ut labore et dolore magna"
+  image : "images/logo_trans.png"
+  video:
+    enable : true
+    video_embed_link : "https://www.youtube.com/embed/QFxAnE1rhgI"
+  form:
+    enable : false
+    form_acttion : "#"
+    button_label : "Request Demo"
+  button:
+    enable : true
+    label : "Kontakt"
+    link : "kontakt"
+    content : "Bitte nehmen Sie kontakt auf um mehr zu erfahren."
+
+########################## How it works #########################
+homepage_tab:
+  enable : true
+  title : "TanzRaum Herisau"
+  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
+  tablist:
+  # tab item
+  - name : "Raum"
+    title : "Raum"
+    image : "https://picsum.photos/500/300"
+    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
+    button:
+      enable : true
+      label : "Raum"
+      link : "raum"
+      
+  # tab item
+  - name : "Events"
+    title : "Events"
+    image : "https://picsum.photos/500/300"
+    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
+    button:
+      enable : true
+      label : "ZU den Events"
+      link : "events"
+      
+  # tab item
+  - name : "Kurse"
+    title : "Kurse"
+    image : "https://picsum.photos/500/300"
+    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores et ea rebum satet"
+    button:
+      enable : true
+      label : "Zu den Kursen"
+      link : "kurse"
+
 ############################# Call to action ############################
 call_to_action:
   enable : true

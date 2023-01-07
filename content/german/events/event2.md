@@ -1,5 +1,5 @@
 ---
-title: Event 2
+title: Kulturbrunch im Februar
 description: Beschreibung Event 2
 tags: 
 - Kulturbrunch
