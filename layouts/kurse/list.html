@@ -16,7 +16,7 @@
           <div class="service-icon text-center mx-auto rounded-circle">
           </div>
           <h3 class="font-weight-600 mt-20 mb-20">{{ .Title | markdownify }}</h3>
-          <p>{{ .Content | markdownify }}</p>
+          <p>{{ .Description | markdownify }}</p>
         </div>
       </div>
       {{ end }}
@@ -28,12 +28,13 @@
 </section>
 <!-- end of services-section -->
 {{ range where .Site.RegularPages "Section" "kurse" }}
+<hr>
 <section class="section-padding">
   <div class="container">
     <div class="row align-items-center justify-content-around">
       <div class="col-lg-5 col-md-8 col-sm-10 mb-5">
         <h2 class="section-title">{{ .Title | markdownify }}</h2>
-        <p class="pb-20 border-bottom mb-20">{{ .Content | markdownify }}</p>
+        <p class="mb-20">{{ .Content | markdownify }}</p>
       </div>
       <div class="col-lg-5 col-md-8 col-sm-10">
         <div class="d-inline-block has-shadow shadow-right has-shapes">
