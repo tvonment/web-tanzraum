@@ -8,23 +8,15 @@ main:
     weight: 2
 
   - name: Veranstaltungen
-    hasChildren: true
+    URL: events
     weight: 3
-
-  - name: Aufführungen
-    parent: Veranstaltungen
-    URL: auffuehrungen
-
-  - name: Kultur Brunch
-    parent: Veranstaltungen
-    URL: kultur-brunch
 
   - name: Raum
     URL: raum
     weight: 4
 
   - name: Kontakt
-    URL: contact
+    URL: kontakt
     weight: 5
 
 footer:

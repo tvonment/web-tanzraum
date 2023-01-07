@@ -1,0 +1,20 @@
+- id: quick_links
+  translation: Links
+  
+- id: social_links
+  translation: Soziale Medien
+  
+- id: home
+  translation: Startseite
+  
+- id: name
+  translation: Name
+  
+- id: mail
+  translation: Email
+  
+- id: message
+  translation: Nachricht
+  
+- id: submit
+  translation: Senden

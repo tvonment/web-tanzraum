@@ -12,15 +12,7 @@ preloader:
 social:
   - name: facebook
     icon: ti-facebook # themify icon : https://themify.me/themify-icons
-    link: "#"
-
-  - name: github
-    icon: ti-github # themify icon : https://themify.me/themify-icons
-    link: "#"
-
-  - name: linkedin
-    icon: ti-linkedin # themify icon : https://themify.me/themify-icons
-    link: "#"
+    link: "https://www.facebook.com/tanzraumherisau"
 
 ############################# Plugins ##############################
 
